@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Properties</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>HTML Properties</h1>
+    </header>
+
+    <nav>
+        <a href="#formatting">Formatting Tags</a>
+        <a href="#multimedia">Multimedia Elements</a>
+        <a href="#navigation">Navigation</a>
+        <a href="#form">Form Controls</a>
+        <a href="#typography">Typography</a>
+        <a href="#tables">Tables</a>
+    </nav>
+
+    <div class="container">
+        <section id="formatting">
+            <h2>Formatting Tags</h2>
+            <p>This is a <b>bold</b> text, and this is an <i>italic</i> text.</p>
+            <p>Here is some <u>underlined</u> text and <mark>highlighted</mark> text.</p>
+            <p>Use <sup>superscript</sup> and <sub>subscript</sub> to format text.</p>
+            <blockquote>
+                <p>This is a blockquote example. It’s used to display a section that is quoted from another source.</p>
+            </blockquote>
+        </section>
+
+        <section id="multimedia">
+            <h2>Multimedia Elements</h2>
+            <h3>Image</h3>
+            <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7ebee7b6-3523-4a1f-9aea-491f69c9b880/d6b763j-457539f7-ded8-41b5-b664-f6a5e87ca9df.png/v1/fill/w_1024,h_576/kanto_starters_wallpaper_by_togechu_d6b763j-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTc2IiwicGF0aCI6IlwvZlwvN2ViZWU3YjYtMzUyMy00YTFmLTlhZWEtNDkxZjY5YzliODgwXC9kNmI3NjNqLTQ1NzUzOWY3LWRlZDgtNDFiNS1iNjY0LWY2YTVlODdjYTlkZi5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.RKhLT6J3mBqM07YUj5WDee7NpswdboVQ9CoLMzLOfIM" alt="Placeholder Image">
+            
+            <h3>Video</h3>
+            <video controls>
+                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
+        <section id="navigation">
+            <h2>Navigation Facility</h2>
+            <p>Use the navigation links at the top of the page to jump to different sections.</p>
+        </section>
+
+        <section id="form">
+            <h2>Form Controls</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <fieldset>
+                    <legend>Gender:</legend>
+                    <label><input type="radio" name="gender" value="female"> Female</label>
+                    <label><input type="radio" name="gender" value="male"> Male</label>
+                </fieldset>
+                
+                <label for="newsletter">
+                    <input type="checkbox" id="newsletter" name="newsletter"> Subscribe to our Newsletter !!
+                </label>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section id="typography">
+            <h2>Typography</h2>
+            <p>Text styled with the <code>Roboto</code> font, applied globally in this document.</p>
+            <p><strong>Bold text</strong> and <em>italic text</em> are demonstrated with the custom font.</p>
+        </section>
+
+        <section id="tables">
+            <h2>Tables</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>BROCK</th>
+                        <th>MISTY</th>
+                        <th>ME</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Onix</td>
+                        <td>Starmie</td>
+                        <td>Lapras</td>
+                    </tr>
+                    <tr>
+                        <td>Geodude</td>
+                        <td>Staryu</td>
+                        <td>Nidoqueen</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </div>
+</body>
+</html>
